@@ -5,6 +5,25 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+#name {
+  font-size: 4em;
+}
+
+.skillz {
+  color: #FFFFFF;
+  list-style-type: none;
+  margin: 10px 0;
+  font-size: 2em;
+}
+
+#prof {
+  color: green;
+}
+
+.skillz i {
+  color: #00BEB7;
+}
+
 #header {
   width: 100%;
   position: relative;
@@ -81,5 +100,7 @@ body{
 #breakfast {
   float: clear;
   position:relative;
-  width: 300px;
+  width: 350px;
 }
+
+
