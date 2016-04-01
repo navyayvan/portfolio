@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var scroll = function(where){
         $('html, body').animate({
             scrollTop: where.offset().top
-        }, 500);
+        }, 800);
     };
 
     $('.tlt').textillate({
@@ -17,7 +17,7 @@ $(document).ready(function() {
       $('.about').removeClass('hide').addClass('show');
       $('.work').removeClass('show').addClass('hide');
       $('.hobbies').removeClass('show').addClass('hide');
-      scroll($('#buffer'));
+      scroll($('.buffer'));
       $('#up').removeClass('hide');
   });
 
@@ -25,7 +25,7 @@ $(document).ready(function() {
       $('.work').removeClass('hide').addClass('show');
       $('.about').removeClass('show').addClass('hide');
       $('.hobbies').removeClass('show').addClass('hide');
-      scroll($('#buffer'));
+      scroll($('.buffer'));
       $('#up').removeClass('hide');
   });
 
@@ -33,11 +33,11 @@ $(document).ready(function() {
       $('.hobbies').removeClass('hide').addClass('show');
       $('.about').removeClass('show').addClass('hide');
       $('.work').removeClass('show').addClass('hide');
-      scroll($('#buffer'));
+      scroll($('.buffer'));
       $('#up').removeClass('hide');
   });
 
-  $('#up').on('click', function(){
+  $('.up').on('click', function(){
     $('.work').removeClass('show').addClass('hide');
     $('.about').removeClass('show').addClass('hide');
     $('.hobbies').removeClass('show').addClass('hide');
