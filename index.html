@@ -2,71 +2,109 @@
 <html>
 <head>
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src='./scripts/textillate.js'></script>
-	<script src='./scripts/lettering.js'></script>
-	<script src='./scripts/script.js'>
- <!-- Latest compiled and minified CSS & JS -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="./scripts/lettering.js"></script>
+  <script src="./scripts/textillate.js"></script>
+  <script src="./scripts/script.js"></script>
 
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
- <script src="//code.jquery.com/jquery.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
- <link href="style.css" rel="stylesheet">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+  <link href="animate.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 <title>navya</title>
 </head>
+
 <body>
-	<div id ='top' class='container-fluid'>
+
+	<div class='container'> 
 		<div class='row'>
 			<div id='header'>
-				Navya
-			</div>		
+				<h1>Navya </h1>
 
-			  <div class='tag'>
-        <h3 class="tlt">
-          <ul class="texts">
-            <li data-in-effect="flipInX" data-out-effect="fadeOut" data-out-shuffle="true">Web Developer</li>
-            <li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true">Runner</li>
-            <li data-in-effect="rotateIn" data-out-effect="fadeOut" data-out-shuffle="true"> Music Junkie</li>
-            <li data-in-effect="swing" data-out-effect="fadeOut" data-out-shuffle="true">Book Lover</li>
-          </ul>
-        </h3>
-      </div>
+					<h3 class='tlt'>
+						<ul class='texts'>
+							<li data-in-effect="flipInX" data-out-effect="fadeOut" data-out-shuffle="true">Web Developer</li>
+	          	<li data-in-effect="flash" data-out-effect="fadeOut" data-out-shuffle="true">Runner</li>
+	         		<li data-in-effect="rotateIn" data-out-effect="fadeOut" data-out-shuffle="true"> Music Junkie</li>
+	          	<li data-in-effect="swing" data-out-effect="fadeOut" data-out-shuffle="true">Book Lover</li>
+						</ul>
+					</h3>
+
+			</div>
 		</div>
 
-		<div class='row'>
-			<div class='col-md-4'>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-
-			<div class='col-md-4'>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-
-			<div class='col-md-4'>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</div>
-
+		<div class='row nav'>
+				<h2 id='about'> ABOUT </h2>
+				<h2 id='work'> WORK </h2>
+				<h3 id='hobbies'> HOBBIES</h3>
 		</div>
+
+		<div>
+			<img id='breakfast' class='img-circle' src='imgs/breakfast.jpg'/>
+		</div>
+
+		<div class='row about'>
+		<div id='buffer'></div>
+			<div class='aboutme'>
+				<h4>I'm Navya, a web developer in Seattle. </h4>
+				<h4> I have a background in Biology, Literature, and feminist and community organizing. </h4>
+				<h4> Looking for a way to use both my analytical skills and my passion for making the world a better place, I began to learn to code. </h4>
+				<div class='skills'>
+					<i class="devicon-html5-plain"></i>
+					<i class="devicon-css3-plain"></i>
+					<i class="devicon-javascript-plain"></i>
+          <i class="devicon-jquery-plain"></i>
+          <i class="devicon-angularjs-plain"></i>
+         	<i class="devicon-ruby-plain"></i>
+         	<i class="devicon-bootstrap-plain"></i>
+         	<i class="devicon-git-plain"></i>
+				</div>
+				<div> <i id='up' class="fa fa-chevron-up"></i></div>
+			</div>
+		</div>
+
+		<div class='row work'>
+		<div id='buffer'></div>
+			<h4> Here are some of the projects I've worked on recently. </h4>
+			<div>
+				<a href='http://navyayvan.github.io/Asana'> <img class='img-circle' src='imgs/yoga.jpg'/> </a>
+
+				<a href='https://girlsnight.herokuapp.com'> <img href='https://girlsnight.herokuapp.com/' class='img-circle' src='imgs/concert.jpg'/> </a>
+			</div>
+			<div> <i id='up' class="fa fa-chevron-up"></i></div>
+		</div>
+
+
+		<div class='row hobbies'>
+		<div id='buffer'></div>
+			<h4>Here are da hobbies. </h4>
+			<div> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			<div> <i id='up' class="fa fa-chevron-up"></i></div>
+		</div>
+
+		  <div class="row footer">
+	    <h1 id='up' class='hide'><i class="fa fa-arrow-circle-up"></i></h1>
+	   
+	    <div id='contact'>
+	      <a class='icon' target="_blank" href='https://github.com/navyayvan'><h2><i class="inline fa fa-github-square"></i></h2></a>
+	      <a class='icon' target="_blank" href='https://www.linkedin.com/in/navya-lakkaraju'><h2><i class="inline fa fa-linkedin-square"></i></h2></a>
+	    </div>
+
+	    <div>
+	      <h6><i class="fa fa-copyright"></i> 2015 Navya Lakkaraju</h6>
+    	</div>
+
+  </div>
 
 	</div>
 
 </body>
+
 </html>

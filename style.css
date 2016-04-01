@@ -1,0 +1,85 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFA65F;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#header {
+  width: 100%;
+  position: relative;
+}
+
+#header h1 {
+  width: 375px;
+  text-align: center;
+  color: #FFFFFF;
+
+  position: relative;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.texts {
+  color: blue;
+}
+
+#buffer {
+    margin-top: 40px;
+    height: 20px;
+    width: 100%;
+}
+
+#about {
+  cursor: pointer;
+}
+
+#work {
+  cursor: pointer;
+}
+
+#up {
+  cursor: pointer;
+}
+
+#hobbies {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.about {
+  display: none;
+}
+
+.work {
+  display: none;
+}
+
+.hobbies {
+  display: none;
+}
+
+#contact {
+  display: inline-flex;
+  margin: 5px;
+}
+
+.icon {
+  margin:5px;
+  color: #00BEB7;
+}
+
+#nav {
+  float: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+#breakfast {
+  float: clear;
+  position:relative;
+  width: 300px;
+}
