@@ -52,7 +52,9 @@ $(document).ready(function() {
   $('.up').on('click', function(){
     $('.work').removeClass('show').addClass('hide');
     $('.about').removeClass('show').addClass('hide');
-    $('.hobbies').removeClass('show').addClass('hide');
+    $('.bucketlist').removeClass('show').addClass('hide');
+    $('.favoritebooks').removeClass('show').addClass('hide');
+
     $('#up').addClass('hide');
 	});
 
