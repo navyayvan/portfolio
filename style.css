@@ -81,7 +81,11 @@ body{
   display: none;
 }
 
-.hobbies {
+.favoritebooks {
+  display: none;
+}
+
+.bucketlist {
   display: none;
 }
 
