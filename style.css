@@ -61,9 +61,13 @@ body{
   cursor: pointer;
 }
 
-#hobbies {
+#favoritebooks {
   cursor: pointer;
 }
+
+#bucketlist {
+  cursor: pointer;
+  }
 
 .hide {
   display: none;
@@ -101,6 +105,15 @@ body{
   float: clear;
   position:relative;
   width: 350px;
+}
+
+
+.favoritebooks div ul li {
+  list-style-type: none;
+}
+
+.bucketlist ul li {
+  list-style-type: none;
 }
 
 

@@ -16,7 +16,8 @@ $(document).ready(function() {
   $('#about').on('click', function(){
       $('.about').removeClass('hide').addClass('show');
       $('.work').removeClass('show').addClass('hide');
-      $('.hobbies').removeClass('show').addClass('hide');
+      $('.favoritebooks').removeClass('show').addClass('hide');
+      $('.bucketlist').removeClass('show').addClass('hide');
       scroll($('.buffer'));
       $('#up').removeClass('hide');
   });
@@ -24,18 +25,29 @@ $(document).ready(function() {
   $('#work').on('click', function(){
       $('.work').removeClass('hide').addClass('show');
       $('.about').removeClass('show').addClass('hide');
-      $('.hobbies').removeClass('show').addClass('hide');
+      $('.favoritebooks').removeClass('show').addClass('hide');
+      $('.bucketlist').removeClass('show').addClass('hide');
       scroll($('.buffer'));
       $('#up').removeClass('hide');
   });
 
-  $('#hobbies').on('click', function(){
-      $('.hobbies').removeClass('hide').addClass('show');
+  $('#favoritebooks').on('click', function(){
+      $('.favoritebooks').removeClass('hide').addClass('show');
       $('.about').removeClass('show').addClass('hide');
       $('.work').removeClass('show').addClass('hide');
+      $('.bucketlist').removeClass('show').addClass('hide');
       scroll($('.buffer'));
       $('#up').removeClass('hide');
   });
+
+  $('#bucketlist').on('click', function() {
+    $('.bucketlist').removeClass('hide').addClass('show');
+    $('.about').removeClass('show').addClass('hide');
+    $('.work').removeClass('show').addClass('hide');
+    $('.favoritebooks').removeClass('show').addClass('hide');
+    scroll($('.buffer'));
+    $('#up').removeClass('hide');
+  })
 
   $('.up').on('click', function(){
     $('.work').removeClass('show').addClass('hide');
